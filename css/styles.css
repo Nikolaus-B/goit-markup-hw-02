@@ -41,7 +41,7 @@ body {
 }
 .main-logo:hover,
 .main-logo:focus {
-  color: #404bbf;
+  color: var(--button-accent-color);
 }
 
 .second-logo {
@@ -79,7 +79,7 @@ body {
 }
 .address-link:hover,
 .address-link:focus {
-  color: var(--main-logo-color);
+  color: var(--button-accent-color);
 }
 
 /* main */
@@ -200,7 +200,7 @@ body {
 }
 .footer-logo:hover,
 .footer-logo:focus {
-  color: #404bbf;
+  color: var(--button-accent-color);
 }
 
 .footer-second {
