@@ -41,7 +41,7 @@ body {
 }
 .main-logo:hover,
 .main-logo:focus {
-  color: var(--button-accent-color);
+  color: #404bbf;
 }
 
 .second-logo {
@@ -200,7 +200,7 @@ body {
 }
 .footer-logo:hover,
 .footer-logo:focus {
-  color: var(--button-accent-color);
+  color: #404bbf;
 }
 
 .footer-second {
