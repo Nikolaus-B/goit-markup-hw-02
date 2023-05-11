@@ -39,13 +39,17 @@ body {
   text-transform: uppercase;
   color: var(--main-logo-color);
 }
-.second-logo:hover,
-.second-logo:focus {
-  color: var(--main-logo-color);
+.main-logo:hover,
+.main-logo:focus {
+  color: var(--button-accent-color);
 }
 
 .second-logo {
   color: var(--title-text-color);
+}
+.second-logo:hover,
+.second-logo:focus {
+  color: var(--button-accent-color);
 }
 
 .list-nav {
@@ -197,16 +201,18 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-logo-color);
-  text-decoration: none;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--button-accent-color);
 }
 
 .footer-second {
   color: var(--footer-logo-color);
-  text-decoration: none;
 }
 .footer-second:hover,
 .footer-second:focus {
-  color: var(--main-logo-color);
+  color: var(--button-accent-color);
 }
 
 .footer-text {
