@@ -17,29 +17,32 @@
 body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   background-color: var(--main-wtite-color);
 }
-
+.link {
+  text-decoration: none;
+}
 /* main page */
 /* header */
 
 .main-logo {
   font-family: Raleway, sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  text-decoration: none;
 
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  text-transform: uppercase;
+  color: var(--main-logo-color);
 }
-.main-logo:hover,
-.main-logo:focus {
+.second-logo:hover,
+.second-logo:focus {
   color: var(--main-logo-color);
 }
 
 .second-logo {
-  color: var(--main-logo-color);
+  color: var(--title-text-color);
 }
 
 .main-nav {
@@ -51,7 +54,6 @@ body {
 
 .nav-link {
   color: var(--title-text-color);
-  text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -67,7 +69,6 @@ body {
 
 .address-link {
   color: var(--primary-text-color);
-  text-decoration: none;
 }
 .address-link:hover,
 .address-link:focus {
@@ -116,13 +117,12 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  color: var(--title-text-color);
 }
 
 .advantages-text {
   font-size: 16px;
   line-height: 1.5;
-
-  color: var(--primary-text-color);
 }
 
 /* what are we doing */
@@ -134,6 +134,7 @@ body {
 
   text-align: center;
   text-transform: capitalize;
+  color: var(--title-text-color);
 }
 
 .presentation-image {
@@ -152,6 +153,7 @@ body {
 
   text-align: center;
   text-transform: capitalize;
+  color: var(--title-text-color);
 }
 
 .team-list {
@@ -162,13 +164,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+
+  color: var(--title-text-color);
 }
 
 .team-position {
   font-size: 16px;
   line-height: 1.5;
-
-  color: var(--primary-text-color);
 }
 /* footer */
 
@@ -178,21 +180,23 @@ body {
 
 .footer-logo {
   font-family: Raleway, sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   text-decoration: none;
 
   letter-spacing: 0.03em;
-  color: var(--footer-logo-color);
+  text-transform: uppercase;
+  color: var(--main-logo-color);
   text-decoration: none;
 }
 
 .footer-second {
-  color: var(--main-logo-color);
+  color: var(--footer-logo-color);
   text-decoration: none;
 }
-.footer-logo:hover,
-.footer-logo:focus {
+.footer-second:hover,
+.footer-second:focus {
   color: var(--main-logo-color);
 }
 
@@ -206,9 +210,6 @@ body {
 /* portfolio */
 .portfolio-list {
   list-style-type: none;
-}
-.portfolio-link {
-  text-decoration: none;
 }
 
 .portfolio-button {
