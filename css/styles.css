@@ -64,6 +64,10 @@ body {
   color: var(--button-accent-color);
 }
 
+.header-address {
+  font-style: normal;
+}
+
 .main-address {
   font-weight: 400;
   font-size: 16px;
@@ -146,8 +150,13 @@ body {
 /* our team */
 
 .team-section {
+  background-color: var(--footer-logo-color);
+}
+
+.team-list {
   background-color: var(--main-wtite-color);
 }
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
