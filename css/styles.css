@@ -47,10 +47,6 @@ body {
 .second-logo {
   color: var(--title-text-color);
 }
-.second-logo:hover,
-.second-logo:focus {
-  color: var(--button-accent-color);
-}
 
 .list-nav {
   font-weight: 500;
@@ -209,10 +205,6 @@ body {
 
 .footer-second {
   color: var(--footer-logo-color);
-}
-.footer-second:hover,
-.footer-second:focus {
-  color: var(--button-accent-color);
 }
 
 .footer-text {
